@@ -1,7 +1,6 @@
 # PyLearn-Exercises
 This is a practice exercise repository where I will be doing exercises from basic to advanced.
 The questions follow:
-
 Basic Python Exercises
 1. Hello World Program: Write a program that prints "Hello, World!".
 2. Basic Arithmetic: Create a program that performs basic arithmetic operations (addition, subtraction, multiplication, division).
@@ -13,7 +12,6 @@ Basic Python Exercises
 8. Fibonacci Series: Generate the first n numbers in the Fibonacci series.
 9. Armstrong Number: Check if a given number is an Armstrong number.
 10. Basic List Operations: Perform operations like append, remove, sort, and reverse on a list.
-
 Intermediate Python Exercises
 11. File Handling: Create a program to read from and write to a text file.
 12. Word Counter: Write a program to count the number of words in a text file.
@@ -25,7 +23,6 @@ Intermediate Python Exercises
 18. Email Validator: Validate if a given string is a properly formatted email address.
 19. Password Generator: Generate a random and secure password.
 20. Simple Voting System: Create a simple voting system to count votes for different candidates.
-
 Tkinter-Based Exercises
 21. Basic Tkinter Window: Create a basic Tkinter window with a title.
 22. Label and Button: Add a label and a button to a Tkinter window.
@@ -37,7 +34,6 @@ Tkinter-Based Exercises
 28. To-Do List: Create a to-do list application with add, delete, and mark complete functionalities.
 29. Temperature Converter GUI: Develop a temperature converter with a graphical interface.
 30. Basic Drawing App: Create a simple drawing application with Tkinter Canvas.
-
 Advanced Tkinter and Python Exercises
 31. Weather App: Create a weather application that fetches and displays weather information.
 32. File Explorer: Develop a file explorer to browse and open files.
@@ -49,14 +45,12 @@ Advanced Tkinter and Python Exercises
 38. Plotting Data: Use Matplotlib to plot data in a Tkinter window.
 39. Login System with Database: Create a login system that validates users against a database.
 40. Expense Tracker: Develop an expense tracker application.
-
 Python and APIs
 41. REST API Consumer: Write a program to consume a REST API and display the data.
 42. Twitter Bot: Create a simple Twitter bot using the Tweepy library.
 43. Web Scraper: Develop a web scraper to extract data from a website.
 44. News Aggregator: Create a news aggregator that fetches news from multiple sources.
 45. Stock Price Checker: Build an application to check and display stock prices.
-
 Python Data Analysis and Visualization
 46. Data Analysis with Pandas: Perform data analysis on a CSV file using Pandas.
 47. Visualization with Matplotlib: Create various types of plots (line, bar, scatter) using Matplotlib.
