@@ -12,7 +12,7 @@ def opt1():
         d[stdName] = stdGrades
 
     for n , g in d.items():
-        print (n,g)
+        print (n,g,'%')
 
 def opt2():
     n = int (input ('Enter the number of records you want to Update:'))
@@ -22,8 +22,7 @@ def opt2():
         d[stdName] = stdGrades
     
     for n , g in d.items():
-        print (n,g)
-
+        print (n,g,'%')
 
 if w == 1:
     opt1()
