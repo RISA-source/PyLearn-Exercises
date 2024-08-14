@@ -1,11 +1,5 @@
 # Bank Account Management: Simulate a simple bank account with deposit, withdraw, and balance check functions.
 
-print('******************* BANK MANAGEMENT SYSTEM **********************')
-
-print('The following choices are available: \n1. To create new account. \n2. To deposit in existing account. \n3. To withdraw from the account. \n4. Check the balance of existing account.')
-
-n = int(input('Enter your choice...  '))
-
 data = {'a':12000,'b':3000, 'c':20000}
 
 def opt1():
@@ -28,7 +22,7 @@ def opt3():
         print('Account not found. Please try again!')
         quit()
     withdrawamt = int(input('Enter the amount you want to withdraw: '))
-    if data[name] <= withdrawamt:
+    if data[name] >= withdrawamt:
         print('Your transaction is successful!')
         data [name] = data[name] - withdrawamt
         a = data[name]
@@ -44,5 +38,24 @@ def opt4():
         print('Account not found!')
         quit()
 
+def main():
+    print('******************* BANK MANAGEMENT SYSTEM **********************')
+
+    print('The following choices are available: \n1. To create new account. \n2. To deposit in existing account. \n3. To withdraw from the account. \n4. Check the balance of existing account.')
+
+    n = int(input('Enter your choice...  '))
+
+    if n==1:
+        opt1()
+    elif n==2:
+        opt2()
+    elif n==3:
+        opt3()
+    elif n==4:
+        opt4()
+    else:
+        print('Invalid choice.')
+
+main()
             
 
